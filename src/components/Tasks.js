@@ -1,7 +1,8 @@
-const tasks = [];
+import { useState } from "react";
 
 const Tasks = () => {
-  return <div></div>;
+  const [tasks, setTasks] = useState();
+  return <>{Tasks.map}</>;
 };
 
 export default Tasks;
